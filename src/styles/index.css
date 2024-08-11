@@ -1,12 +1,35 @@
+.bttn {
+    height: 80px;
+    width: 80px;
+}
+.ancho {
+    width: 100px;
+    height: 400px;
+}
 
-/* 
+.rojo {
+    box-shadow:2px 2px 67px 23px rgba(246,0,0,0.76);
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.amarillo {
+    box-shadow: 2px 2px 67px 23px rgba(244, 240, 1, 0.76);
+}
 
-*/
+.verde {
+    box-shadow: 2px 2px 67px 23px rgba(125, 228, 8, 0.76);
+}
+
+.purple {
+    background-color: purple;
+}
+
+.purpura {
+    box-shadow: 2px 2px 67px 23px rgba(184, 8, 228, 0.76);
+}
+
+.suspension-block{    
+    width: 20px;
+    height: 150px;
+    background: black;
+    
+}
